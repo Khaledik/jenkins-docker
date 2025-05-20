@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'monsite-Docker'
-        CONTAINER_NAME = 'monsite-Docker-conteneur'
+        IMAGE_NAME = 'monsite-docker'
+        CONTAINER_NAME = 'monsite-docker-container'
         HOST_PORT = '8081'
         CONTAINER_PORT = '80'
         GIT_REPO = 'https://github.com/Khaledik/jenkins-docker.git'
